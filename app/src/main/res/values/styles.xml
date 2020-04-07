@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="current_question_text">
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="option_button_unselected">
+        <item name="android:background">#3cba54</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <style name="final_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:capitalize">words</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

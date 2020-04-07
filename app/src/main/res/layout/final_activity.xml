@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        style="@style/final_text"
+        android:text="\@noname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/user"
+        android:layout_margin="8dp"
+        style="@style/final_text"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="You Scored"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user"
+        android:layout_centerHorizontal="true">
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user"
+        android:layout_marginLeft="8dp"
+        android:textSize="36sp"
+        android:text="0/"/>
+    <TextView
+        android:id="@+id/max"
+        android:layout_toRightOf="@id/score"
+        android:layout_below="@id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="10"/>
+    </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:text="Play Again"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="36dp"
+        android:onClick="gotoStart"/>
+    <Button
+        android:id="@+id/exit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Exit"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="36dp"/>
+
+</RelativeLayout>

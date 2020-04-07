@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question">Question</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="go">Go</string>
+    <string name="ques_1">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</string>
+    <string name="ques_1_opt_1">que lo busque</string>
+    <string name="ques_1_opt_2">Ans</string>
+    <string name="ques_1_opt_3">el texto de</string>
+    <string name="ques_1_opt_4">45 antes de Cristo</string>
+
+    <string name="ques_2">Fusce rhoncus felis vel imperdiet ornare, Proin elementum augue sit amet mi porttitor suscipit.</string>
+    <string name="ques_2_opt_1">Ans</string>
+    <string name="ques_2_opt_2">Var kommer det ifrån</string>
+    <string name="ques_2_opt_3">Det finns många</string>
+    <string name="ques_2_opt_4">Den ursprungliga</string>
+
+    <string name="ques_3">Ut consequat tellus non metus ullamcorper sollicitudin, Donec semper nibh ac diam cursus rutrum.</string>
+    <string name="ques_3_opt_1">Neque porro quisquam</string>
+    <string name="ques_3_opt_2">Un professeur</string>
+    <string name="ques_3_opt_3">Plusieurs variations</string>
+    <string name="ques_3_opt_4">Ans</string>
+
+    <string name="ques_4">Quisque gravida enim quis tellus dictum volutpat, Ut vel sapien eget quam efficitur tempor. Nunc eget nisl commodo, semper purus faucibus, iaculis mauris.</string>
+    <string name="ques_4_opt_1">Ans</string>
+    <string name="ques_4_opt_2">D\'où vient-il</string>
+    <string name="ques_4_opt_3">mais la majeure</string>
+    <string name="ques_4_opt_4">proviennent de</string>
+
+    <string name="ques_5">Nulla eget ipsum suscipit, tristique metus quis, tristique augue, Curabitur ac lorem sagittis, tincidunt leo sit amet, congue velit</string>
+    <string name="ques_5_opt_1">Option 1.</string>
+    <string name="ques_5_opt_2">OPtion 2.</string>
+    <string name="ques_5_opt_3">Ans</string>
+    <string name="ques_5_opt_4">OPtion 4.</string>
+</resources>
